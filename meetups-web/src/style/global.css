@@ -1,0 +1,36 @@
+:root {
+    --color-background: #f3f3f3;
+    --color-laranja-iteris: #EF8124;
+    --color-laranja-iteris-light: #5A655B;
+    --color-azul-iteris: #005183;
+    --color-azul-iteris-light: #00426C;
+    --color-background-home: #FFFFFF;
+    --color-text-light: #959598;
+    --color-text-dark: #000000;
+}
+    
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+    
+html,
+body {
+    background-color: var(--color-background);
+}
+    
+a {
+    text-decoration: none;
+    transition: 0.2s opacity;
+}
+    
+a:hover {
+    opacity: 0.8;
+}
+    
+.container {
+    width: 90%;
+}
+    
